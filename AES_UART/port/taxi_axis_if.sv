@@ -8,6 +8,9 @@ Authors:
 
 */
 
+`ifndef TAXI_AXIS_IF_SV
+`define TAXI_AXIS_IF_SV
+
 interface taxi_axis_if #(
     // Width of AXI stream interfaces in bits
     parameter DATA_W = 8,
@@ -80,3 +83,5 @@ interface taxi_axis_if #(
     );
 
 endinterface
+
+`endif

@@ -8,6 +8,9 @@ Authors:
 
 */
 
+`ifndef TAXI_AXIL_IF_SV
+`define TAXI_AXIL_IF_SV
+
 interface taxi_axil_if #(
     // Width of data bus in bits
     parameter DATA_W = 32,
@@ -173,3 +176,5 @@ interface taxi_axil_if #(
     );
 
 endinterface
+
+`endif

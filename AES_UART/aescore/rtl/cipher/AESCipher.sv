@@ -1,6 +1,7 @@
-`resetall
 `timescale 1ns / 1ps
 `default_nettype none
+
+`include "../../../port/taxi_axis_if.sv"
 
 /*
     AES Cipher
